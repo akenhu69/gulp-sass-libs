@@ -38,7 +38,7 @@ function watchTask() {
 }
 
 function build() {
-    return src('./app/css/index.css')
+    return src('./app/css/*.css')
         // .pipe(minifyCSS({
             // keepBreaks: true,
             // relative_assets:false
