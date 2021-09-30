@@ -47,7 +47,7 @@ function build() {
             path.basename += ".min";
             path.extname = ".css";
         }))
-        .pipe(dest('./public/css/'));
+        .pipe(dest('./docs/css/'));
 
     // src('./app/js/*.js')
     //     .pipe(uglify())
