@@ -1,0 +1,7 @@
+@mixin generate_obj($name, $obj) {
+  @each $key, $value in $obj {
+    .#{$name}\:#{$key} {
+      #{$name}: #{$value};
+    }
+  }
+}

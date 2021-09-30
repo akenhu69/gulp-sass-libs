@@ -1,0 +1,11 @@
+// @each $key, $val in $colors {
+//     .text-#{$key} {
+//         color: $val;
+//     }
+// }
+
+// @for $i from 1 through 9 {
+//     .text-#{$i} {
+//         color: #{$i}00000;
+//     }
+// }

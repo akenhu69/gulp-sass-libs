@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/pant.css">
+    <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0254/7289/t/101/assets/ws.css?v=4155181364098332625">
+    <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0254/7289/t/101/assets/application.css?v=15485463609901334006">
+    <script src="https://cdn.shopify.com/s/files/1/0254/7289/t/101/assets/jquery-3.2.1.min.js?v=18195190340408105179"></script>
+</head>
+
+<body>
+    <div id="choose-product-section" class="onboarding-step onboarding-step--intro mb-4 mt-4">
+        <section class="content active">
+            <div class="container">
+                <h2 class="h2 text-c">Get Started</h2>
+                <div class="row">
+                    <div class="col-sm-10 col-md-12">
+                        <div class="row gap-2">
+                            <div class="col-md-8">
+                                <div class="js-comp-group">
+                                    <div class="js-comp text-input"><input type="email" class="js-input"
+                                            name="customerEmail" value="" placeholder="Your Email (optional)"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4 mt-4 gap-3">
+                            <div class="col-md-8">
+                                <div class="js-comp-group">
+                                    <div class="js-comp text-input"><input type="text" class="js-input" name="petName"
+                                            value="" placeholder="Pet's Name"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-c">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Dog or Cat</div>
+                                    <div class="js-comp pet-type-select">
+                                        <div class="select">
+                                            <div class="option selected"><span class="icon-dog"></span></div>
+                                            <div class="option"><span class="icon-cat"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4 mt-4 gap-3">
+                            <div class="col-md-4">
+                                <div class="js-comp-group">
+                                    <div class="js-comp dropdown active" name="breed">
+                                        <div class="selector"><span class="label">Mixed Breed</span><span
+                                                class="icon icon-chevron-small-down"></span></div>
+                                        <ul>
+                                            <li class="selected">Mixed Breed</li>
+                                            <li class="">Purebred</li>
+                                            <li class="">I don't Know</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="js-comp-group">
+                                    <div class="js-comp text-input"><input type="text" class="js-input"
+                                            name="mixedBreed1" value="" placeholder="Enter Breed"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="js-comp-group">
+                                    <div class="js-comp text-input"><input type="text" class="js-input"
+                                            name="mixedBreed2" value="" placeholder="Enter Breed"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4 mt-4 gap-3" style="margin-bottom: 10px;">
+                            <div class="col-md-4">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Activity Level</div>
+                                    <div class="js-comp dropdown " name="activityLevel">
+                                        <div class="selector"><span class="label">Activity Level</span><span
+                                                class="icon icon-chevron-small-down"></span></div>
+                                        <ul>
+                                            <li class="">Calm / Normal</li>
+                                            <li class="">Active / Working</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-c">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Ideal Adult Weight</div>
+                                    <div class="js-comp drag-select">
+                                        <div class="drag-container">
+                                            <div class="drag-track">
+                                                <div class="drag-ui" style="transform: translate(35.8823px);">
+                                                    <div class="drag-label">25 lbs</div>
+                                                    <div class="drag-tool"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-c">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Age</div>
+                                    <div class="js-comp drag-select">
+                                        <div class="drag-container">
+                                            <div class="drag-track">
+                                                <div class="drag-ui" style="transform: translate(112.495px);">
+                                                    <div class="drag-label">5 yrs</div>
+                                                    <div class="drag-tool"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4 mt-4" style="margin-top: 10px;">
+                            <small class="js-comp-label">USE CURSOR TO MOVE RED BALL BACK AND FORTH</small>
+
+                        </div>
+                        <div class="js-comp step-button"><button class="button button--red">Next</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <h2 class="h2">Dietary Information</h2>
+                <div class="row flex-jc-center">
+                    <div class="col-sm-10 col-md-10">
+                        <div class="row flex-ai-center mb-4 mt-4 gap-3">
+                            <div class="col-md-6">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Is Your Pet Currently On Raw?</div>
+                                    <div class="js-comp dropdown active" name="currentCustomer">
+                                        <div class="selector"><span class="label">No</span><span
+                                                class="icon icon-chevron-small-down"></span></div>
+                                        <ul>
+                                            <li class="selected">No</li>
+                                            <li class="">Yes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">Does your pet have any allergies?</div>
+                                    <div class="js-comp dropdown active" name="allergies">
+                                        <div class="selector"><span class="label">No</span><span
+                                                class="icon icon-chevron-small-down"></span></div>
+                                        <ul>
+                                            <li class="selected">No</li>
+                                            <li class="">Yes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-4 mt-4 gap-3 flex-jc-center">
+                            <div class="col-md-8 text-c">
+                                <div class="js-comp-group">
+                                    <div class="js-comp-label">
+                                        <!-- react-text: 1375 -->If you answered yes to either
+                                        <!-- /react-text --><br><!-- react-text: 1377 -->of the above, please explain:
+                                        <!-- /react-text -->
+                                    </div>
+                                    <div class="js-comp textarea"><textarea class="js-input" name="dietDetails"
+                                            placeholder="" rows="8"></textarea></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="js-comp step-button"><button class="button button--red">Next</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <h2 class="h2">Meal Plan</h2>
+                <div class="plan--pre">
+                    <p class="text-c">
+                        <!-- react-text: 1387 -->Based off your pet's information,
+                        <!-- /react-text --><br><!-- react-text: 1389 -->please choose from one of the following plans
+                        <!-- /react-text -->
+                    </p>
+                    <div class="row mb-4 mt-4 flex-jc-center ">
+                        <div class="col-sm-lg-9 col-sm-lg-push-1-half">
+                            <div class="slick-initialized slick-slider">
+                                <div class="slick-list draggable">
+                                    <div class="slick-track"
+                                        style="opacity: 1; width: 744px; transform: translate3d(0px, 0px, 0px);">
+                                        <div class="row gap-3">
+                                            <div class="col-md-6 slick-slide slick-current slick-active"
+                                                style="width: 372px;" data-slick-index="0" aria-hidden="false">
+                                                <div class="plan-card plan-card--red">
+                                                    <h3>Essential Plan</h3>
+                                                    <div class="price-per">
+                                                        <h6>Starting at</h6><span class="cost">$6.07</span><span
+                                                            class="per">/day</span>
+                                                    </div>
+                                                    <ul class="ul--checklist--small">
+                                                        <li>Available in bi-weekly or monthly shipments</li>
+                                                        <li>This plan includes this assortment of proteins: Beef Patty
+                                                            Recipe, Chicken Patty Recipe, Turkey Patty Recipe and Lamb
+                                                            Patty
+                                                            Recipe.</li>
+                                                        <li>Ships free to Zone 1 customers</li>
+                                                    </ul><span class="ws_text">
+                                                        <!-- react-text: 1405 -->To see a full list of ingredients,
+                                                        visit
+                                                        our patties page
+                                                        <!-- /react-text --><a
+                                                            href="https://www.wefeedraw.com/collections/patties"
+                                                            tabindex="0">here</a>
+                                                    </span><span class="ws_text_italic">If your pet is new to raw,
+                                                        instructions will be included in your first shipment to help you
+                                                        and
+                                                        your pet with the transition.</span><a
+                                                        class="button button--red" tabindex="0"><span>Select</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 slick-slide slick-active" style="width: 372px;"
+                                                data-slick-index="1" aria-hidden="false">
+                                                <div class="plan-card plan-card--dark-red">
+                                                    <h3>Premium Plan</h3>
+                                                    <div class="price-per">
+                                                        <h6>Starting at</h6><span class="cost">$7.00</span><span
+                                                            class="per">/day</span>
+                                                    </div>
+                                                    <ul class="ul--checklist--small">
+                                                        <li>Available in bi-weekly or monthly shipments</li>
+                                                        <li>This plan includes this assortment of proteins: Venison
+                                                            Patty
+                                                            Recipe, Duck Patty Recipe, Beef Patty Recipe, Chicken Patty
+                                                            Recipe, Turkey Patty Recipe and Lamb Patty Recipe.</li>
+                                                        <li>Ships free to Zone 1 customers</li>
+                                                    </ul><span class="ws_text">
+                                                        <!-- react-text: 1422 -->To see a full list of ingredients,
+                                                        visit
+                                                        our patties page
+                                                        <!-- /react-text --><a
+                                                            href="https://www.wefeedraw.com/collections/patties"
+                                                            tabindex="0">here</a>
+                                                    </span><span class="ws_text_italic">If your pet is new to raw,
+                                                        instructions will be included in your first shipment to help you
+                                                        and
+                                                        your pet with the transition.</span><a
+                                                        class="button button--red" tabindex="0"><span>Select</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__arrows"></div>
+                        </div>
+                    </div>
+                    <div class="text-c">
+                        <p>
+                            <!-- react-text: 1430 -->For Custom Plan inquiries, please contact us at
+                            <!-- /react-text --><br><a href="mailto:info@wefeedraw.com">info@wefeedraw.com</a>
+                            <!-- react-text: 1433 -->.
+                            <!-- /react-text -->
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <nav class="js-comp nav--dots">
+        <ul>
+            <li class="active" data-index="0"></li>
+            <li class="" data-index="1"></li>
+            <li class="" data-index="2"></li>
+            <li class="" data-index="3"></li>
+        </ul>
+    </nav>
+    <script>
+        (function () {
+            switchSection()
+            handleDropdownEvent()
+        })()
+
+
+        function switchSection(isInit = true, index) {
+            const container = document.getElementById('choose-product-section')
+            const sections = container.querySelectorAll('section.content')
+            const dots = document.querySelectorAll('.nav--dots li')
+            container.style.height = sections[0].offsetHeight + 'px'
+            sections.forEach((row, sectionIndex) => {
+                if (isInit) {
+                    row.addEventListener('transitionend', () => {
+                        if (row.className.indexOf('fade-out') > -1) {
+                            row.classList.remove('fade-out', 'active')
+                        }
+                    })
+                }
+                const btn = row.querySelector('button')
+                if (btn) {
+                    btn.onclick = function () {
+                        const nextRow = row.nextElementSibling
+                        row.classList.add('fade-out')
+                        nextRow.classList.add('active')
+                        window.scrollTo(0,0)
+                        container.style.height = nextRow.offsetHeight + 'px'
+
+                        dots.forEach(dot2=>dot2.classList.remove('active'))
+                        dots[sectionIndex+1].classList.add('active')
+                    }
+                }
+            })
+
+            
+            dots.forEach(dot=>{                    
+                dot.onclick = function(){
+                    const index = dot.getAttribute('data-index')
+                    dots.forEach(dot2=>dot2.classList.remove('active'))
+                    dot.classList.add('active')
+                    sections.forEach(section=>{
+                        if(section.classList.contains('active')){
+                            section.classList.add('fade-out')
+                        }
+                    })
+                    sections[index].classList.add('active')
+                    container.style.height = sections[index].offsetHeight + 'px'
+                    window.scrollTo(0,0)
+                }
+            })
+        }
+
+        function handleDropdownEvent(){
+            const rows = document.querySelectorAll('.dropdown')
+            rows.forEach(row=>{
+                row.onclick = function(){
+                    row.classList.add('open')
+                }
+                row.addEventListener("blur", ()=>{
+                    console.log('%cpant.html line:34', 'color: #007acc;');
+                    row.classList.remove('open')
+                });
+            })
+        }
+    </script>
+</body>
+
+</html>
